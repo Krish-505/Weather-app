@@ -1,0 +1,183 @@
+:root {
+    --primary-bg: #222;
+    --card-bg: linear-gradient(135deg, #00feba, #5b548a);
+    --text-color: #fff;
+    --input-bg: #ebfffc;
+    --input-text-color: #555;
+}
+
+body.light-theme {
+    --primary-bg: #e0e0e0;
+    --card-bg: linear-gradient(135deg, #87CEEB, #b0e0e6);
+    --text-color: #333;
+    --input-bg: #fff;
+    --input-text-color: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--primary-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: var(--card-bg);
+    color: var(--text-color);
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 25px 35px; /* Adjusted padding slightly for the new title */
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-end; /* Pushes toggle to the right */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px; /* Space between toggle and title */
+}
+
+/* This is the new title style */
+.card-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: var(--input-bg);
+    color: var(--input-text-color);
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: var(--input-bg);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button img {
+    width: 24px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather.hide, .error.hide {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#theme-toggle {
+    display: none;
+}
+
+#theme-toggle + label {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 28px;
+    background-color: #4a4a4a;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#theme-toggle + label::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100px;
+    top: 4px;
+    left: 4px;
+    transition: left 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+#theme-toggle:checked + label {
+    background-color: #3a8dff;
+}
+
+#theme-toggle:checked + label::after {
+    left: 26px;
+}
