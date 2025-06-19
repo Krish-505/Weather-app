@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built from the ground up using vanilla HTML, CSS, and JavaScript. This project fetches live data from the OpenWeatherMap API and showcases a range of dynamic, user-friendly features.
 
-## 🚀 [**Live Demo Link**](https://your-app-name.netlify.app) 🚀
+## 🚀 [**Live Demo Link**]([https://your-app-name.netlify.app](https://6853e9f0e037d58ac3ff9627--krish-voice-weather-app.netlify.app/)) 🚀
 
 ---
 
@@ -17,13 +17,9 @@ A modern, responsive weather application built from the ground up using vanilla 
 *   **⚙️ Graceful Error Handling:** Provides clear feedback to the user if a city cannot be found or if there is an API error.
 
 ### 📸 Screenshots
-
-*Add a screenshot of your app here. You can take one and add it to your `images` folder named `screenshot.png` or `demo.gif`.*
-*Example:*
-
-
----
-
+images\Screenshot-1.png
+images\Screenshot-2.png
+images\Screenshot-3.png
 ### 🛠️ Technology Stack
 
 This project was built using core front-end technologies, with no external frameworks or libraries.
