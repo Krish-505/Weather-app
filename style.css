@@ -91,6 +91,10 @@ body {
     justify-content: center;
 }
 
+.mic-btn {
+    margin-right: 8px;
+}
+
 .search button img {
     width: 24px;
 }
