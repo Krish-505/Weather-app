@@ -17,9 +17,9 @@ A modern, responsive weather application built from the ground up using vanilla 
 *   **⚙️ Graceful Error Handling:** Provides clear feedback to the user if a city cannot be found or if there is an API error.
 
 ### 📸 Screenshots
-images\Screenshot-1.png
-images\Screenshot-2.png
-images\Screenshot-3.png
+Screenshot-1.png
+Screenshot-2.png
+Screenshot-3.png
 ### 🛠️ Technology Stack
 
 This project was built using core front-end technologies, with no external frameworks or libraries.
