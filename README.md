@@ -2,7 +2,9 @@
 
 A modern, responsive weather application built from the ground up using vanilla HTML, CSS, and JavaScript. This project fetches live data from the OpenWeatherMap API and showcases a range of dynamic, user-friendly features.
 
-## 🚀 [**Live Demo Link**]([https://your-app-name.netlify.app](https://6853e9f0e037d58ac3ff9627--krish-voice-weather-app.netlify.app/)) 🚀
+## 🌐 Live Demo
+
+[https://6853e9f0e037d58ac3ff9627--krish-voice-weather-app.netlify.app](https://6853e9f0e037d58ac3ff9627--krish-voice-weather-app.netlify.app)
 
 ---
 
